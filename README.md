@@ -1,4 +1,8 @@
-# SMP
+# News
+- !!! We have release a **better, smaller and faster** new model "Uniparser" for multi-human parsing task.
+  - !!! You could try the demo with trained checkpoints we provide in https://github.com/cjm-sfw/Uniparser.
+
+# [ACM MM 2023] SMP
 The official Implementation of "Single-Stage Multi-Human Parsing via Point Sets and Center-Based Offsets"
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/single-stage-multi-human-parsing-via-point/multi-human-parsing-on-mhp-v20)](https://paperswithcode.com/sota/multi-human-parsing-on-mhp-v20?p=single-stage-multi-human-parsing-via-point)
@@ -70,7 +74,7 @@ mim install mmcv-full==1.7.0
 
 **Step 1.**
 ```shell
-git clone -b mmdet2.0 https://github.com/cjm-sfw/SMP.git
+git clone https://github.com/cjm-sfw/SMP.git
 cd SMP
 pip install -v -e .
 ```
